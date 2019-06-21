@@ -14,33 +14,28 @@ body {
   font-weight: 700;
   font-size: 1rem;
   letter-spacing: .1rem;
-  background: rgb(255, 153, 204) !important;
-}
-
-.navbar btn-outline-success{
-  color: pink:  !important;
-  background-color: pink !important;
 }
 
 .navbar-nav li {
   padding-right: .7rem;
 }
 
-.navbar-dark .navbar-nav .nav-link {
-  color: white;
-  padding-up: .8rem;
+.nav-link{
+  color: white !important;
 }
 
-.navbar-dark .navbar-nav .nav-link.active,
-.navbar-dark .navbar-nav .nav-link:hover {
-  color: #1ebba3;
+.navbar-brand{
+  color: white !important;
 }
 
+.navbar-toggler-icon{
+  color:white !important;
+}
 
 #carouselExampleControls img{
   height: 35rem;
   width: 100%;
-  margin-bottom: 7rem;
+  margin-top: 1.6rem;
 }
 /*============= media queries =============*/
 @media (max-width: 767px) {
