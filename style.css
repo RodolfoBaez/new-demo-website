@@ -28,10 +28,39 @@ body {
   color: white !important;
 }
 
-.navbar-toggler-icon{
-  color:white !important;
+
+.navbar-toggler {
+  /* change color here look down */
+  border-color: rgba(102, 194, 255) !important;
 }
 
+/* change color here look down */
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(102, 194, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+#navbarDropdownMenuLink{
+ color: rgba(102, 194, 255) !important;
+}
+
+.carousel-caption {
+  color: rgba(102, 194, 255) !important;
+  margin-bottom: 14rem;
+}
+
+.btn-outline-light {
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.3rem;
+  fontsize: 1.1rem;
+  margin-top: -1rem;
+  border-color: rgba(102, 194, 255) !important;
+  color: rgba(102, 194, 255) !important;
+
+}
+
+
+/*============= CAROUSEL BACKGROUND =============*/
 #carouselExampleControls img{
   height: 35rem;
   width: 100%;
