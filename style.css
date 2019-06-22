@@ -1,14 +1,3 @@
-body {
-  overflow-x: hidden;
-  color: #505962;
-}
-
-.offset:before {
-  display: block;
-  height: 4rem;
-  content: "";
-  margin-top: -4rem;
-}
 
 .navbar {
   font-weight: 700;
@@ -28,8 +17,6 @@ body {
   color: white !important;
 
 }
-
-
 .navbar-toggler {
   /* change color here look down */
   border-color: rgba(102, 194, 255) !important;
@@ -44,6 +31,10 @@ body {
  color: rgba(102, 194, 255) !important;
 }
 
+
+
+/*============= CAROUSEL BACKGROUND =============*/
+
 .carousel-caption {
   color: rgba(102, 194, 255) !important;
 
@@ -57,16 +48,54 @@ body {
   margin-top: -1rem;
   border-color: rgba(102, 194, 255) !important;
   color: rgba(102, 194, 255) !important;
+}
 
+.carousel-indicators li{
+  border-radius: 50%;
+  width: 0.9rem;
+  height: 0.9rem;
 }
 
 
-/*============= CAROUSEL BACKGROUND =============*/
-#carouselExampleControls img{
-  height: 35rem;
-  width: 100%;
-  margin-top: 1.6rem;
+  /*============= Menu =============*/
+
+.menu .heading {
+    color: rgba(102, 194, 255) !important;
+    font-size: 4rem;
+  }
+
+.menu {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
 }
+
+
+  /*============= resources=============*/
+
+  #resources .fixed {
+    background-image: url("giphy2.gif");
+    z-index: -1;
+  }
+
+  #resources .dark {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    padding: 7rem 2rem;
+  }
+
+  #resources .fixed-background h3 {
+    margin-bottom: 2rem;
+  }
+
+  #resources .fixed-background p {
+    margin-top: 1.5rem;
+  }
+
+  #resources svg.svg-inline--fa {
+    color: rgba(102, 194, 255);
+  }
+
+
 
 
 /*============= media queries =============*/
