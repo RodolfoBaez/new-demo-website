@@ -2,10 +2,25 @@
 
 
   /*============= Divide for each section=============*/
- {
-  border-top:0.1rem dotted;
-  border-color: rgba(102, 194, 255) !important;
+
+hr.style15 {
+	border-top: 4px double  rgba(102, 194, 255);
+	text-align: center;
+   background-image: url(giphy.gif);
+
 }
+hr.style15:after {
+	content: 'Welcome To Rodolfo Baez Website';
+   background-image: url(giphy.gif);
+	display: inline-block;
+	position: relative;
+	top: -1rem;
+	padding: 0 1rem;
+	color:  rgba(102, 194, 255);
+	font-size: 18px;
+}
+
+/*=============Nav Bar section=============*/
 
 .navbar {
   font-weight: 700;
@@ -71,6 +86,7 @@ font-size: 1.4rem
   padding: .6rem 1.3rem;
   fontsize: 1.1rem;
   margin-top: -1rem;
+  border-color: rgba(102, 194, 255);
 
 }
 
@@ -93,7 +109,7 @@ font-size: 1.4rem
   }
 
   #menu .heading {
-  color:white;
+  color: rgba(102, 194, 255);
 }
 
   /*============= resources=============*/
@@ -119,6 +135,56 @@ font-size: 1.4rem
 
   #resources svg.svg-inline--fa {
     color: rgba(102, 194, 255);
+  }
+
+  #resources .heading {
+  color: rgba(102, 194, 255);
+}
+
+
+  /*============= Footer SECTION =============*/
+
+  #footer .btn-outline-light {
+  margin-top: 0.5rem;
+  }
+
+  #footer .fixed {
+    background-image: url("giphy.gif");
+    z-index: -1;
+  }
+
+  #footer .dark {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    padding: 3rem 0rem;
+  }
+
+  #footer svg.svg-inline--fa {
+    color: rgba(102, 194, 255);
+
+  }
+
+  #footer .heading{
+    float: left;
+    color: rgba(102, 194, 255);
+  }
+
+  #footer hr{
+     background-color: rgba(102, 194, 255);
+     height: 0.2rem;
+     margin-top: 2.5rem;
+  }
+
+  #footer h4{
+    text-decoration: underline;
+    text-decoration-style:dashed;
+    text-decoration-color: rgba(102, 194, 255);
+    margin-left:0.2rem;
+  }
+
+  #footer p{
+    margin-top: 0.1rem;
+    font-size: 1rem;
   }
 
 
