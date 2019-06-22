@@ -65,11 +65,17 @@ hr.style15:after {
 .dark {
   background-color: rgba(0, 0, 0, 0.75);
   color: white;
-  padding: 11rem 0.2rem;
+  padding: 1rem 0.2rem;
 }
 
 .fixed-background h3 {
   margin-top: 2rem;
+  font-size:3rem;
+
+}
+
+.homelanding .fixed-background h3{
+  margin-top: 9rem ;
   font-size:3rem;
 
 }
@@ -109,7 +115,12 @@ font-size: 1.4rem
   }
 
   #menu .heading {
-  color: rgba(102, 194, 255);
+  color:white;
+}
+
+#menu .btn-outline-light{
+  float:right;
+ margin-top: 0.3rem;
 }
 
   /*============= resources=============*/
@@ -138,7 +149,23 @@ font-size: 1.4rem
   }
 
   #resources .heading {
-  color: rgba(102, 194, 255);
+  color:white;
+}
+
+
+/*============= Quote SECTION =============*/
+.clients img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+blockquote svg.svg-inline--fa {
+ color: rgba(102, 194, 255) !important;;
+  margin: 1rem;
+}
+
+.client-hr {
+  border-top: .05rem solid  rgba(102, 194, 255) ;
 }
 
 
@@ -166,7 +193,7 @@ font-size: 1.4rem
 
   #footer .heading{
     float: left;
-    color: rgba(102, 194, 255);
+    color: white;
   }
 
   #footer hr{
@@ -197,3 +224,21 @@ font-size: 1.4rem
     letter-spacing: .15rem;
     padding-buttom: .5rem;
   }
+  .caption h3 {
+  font-size: 1.2rem padding-buttom: 1.2rem;
+}
+
+.btn-lg {
+  padding: .5rem 1rem;
+  fontsize: 1rem;
+}
+
+.narrow h1 {
+  font-size: 1.5rem;
+}
+
+.clients img {
+  max-width: 50%;
+  display: block;
+  margin: 0 auto;
+}
