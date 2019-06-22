@@ -1,4 +1,12 @@
 
+
+
+  /*============= Divide for each section=============*/
+ {
+  border-top:0.1rem dotted;
+  border-color: rgba(102, 194, 255) !important;
+}
+
 .navbar {
   font-weight: 700;
   font-size: 1rem;
@@ -33,10 +41,27 @@
 
 
 
-/*============= CAROUSEL BACKGROUND =============*/
+/*============= home BACKGROUND =============*/
+.fixed {
+  background-image: url("giphy.gif");
+  z-index: -1;
+}
 
-.carousel-caption {
-  color: rgba(102, 194, 255) !important;
+.dark {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 11rem 0.2rem;
+}
+
+.fixed-background h3 {
+  margin-top: 2rem;
+  font-size:3rem;
+
+}
+
+.fixed-background p {
+margin-top: -2rem;
+font-size: 1.4rem
 
 }
 
@@ -46,29 +71,30 @@
   padding: .6rem 1.3rem;
   fontsize: 1.1rem;
   margin-top: -1rem;
-  border-color: rgba(102, 194, 255) !important;
-  color: rgba(102, 194, 255) !important;
+
 }
 
-.carousel-indicators li{
-  border-radius: 50%;
-  width: 0.9rem;
-  height: 0.9rem;
-}
 
 
   /*============= Menu =============*/
-
-.menu .heading {
-    color: rgba(102, 194, 255) !important;
-    font-size: 4rem;
+  #menu .fixed {
+    background-image: url("giphy.gif");
+    z-index: -1;
   }
 
-.menu {
-  margin-top: 2rem;
-  margin-bottom: 5rem;
-}
+  #menu .dark {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: black;
+    padding: 7rem 2rem;
+  }
 
+  #menu .fixed-background p {
+    margin-top: 1.5rem;
+  }
+
+  #menu .heading {
+  color:white;
+}
 
   /*============= resources=============*/
 
@@ -105,23 +131,3 @@
     letter-spacing: .15rem;
     padding-buttom: .5rem;
   }
-
-  .caption h3 {
-    font-size: 1.2rem padding-buttom: 1.2rem;
-  }
-
-  .btn-lg {
-    padding: .5rem 1rem;
-    fontsize: 1rem;
-  }
-
-  .narrow h1 {
-    font-size: 1.5rem;
-  }
-
-  .clients img {
-    max-width: 50%;
-    display: block;
-    margin: 0 auto;
-  }
-}
