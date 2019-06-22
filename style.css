@@ -160,7 +160,7 @@ font-size: 1.4rem
 }
 
 blockquote svg.svg-inline--fa {
- color: rgba(102, 194, 255) !important;;
+ color: rgba(102, 194, 255) !important;
   margin: 1rem;
 }
 
@@ -168,6 +168,18 @@ blockquote svg.svg-inline--fa {
   border-top: .05rem solid  rgba(102, 194, 255) ;
 }
 
+.carousel-indicators li{
+	height: 1.5rem;
+	width: 1.5rem;
+	background-color: rgba(102, 194, 255) !important;
+	border-radius: 50%;
+}
+
+.clients-hr {
+
+ height:0.2rem;
+ background-color:rgba(102, 194, 255) !important;
+}
 
   /*============= Footer SECTION =============*/
 
