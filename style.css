@@ -178,7 +178,7 @@ blockquote svg.svg-inline--fa {
 .clients-hr {
 
  height:0.2rem;
- background-color:rgba(102, 194, 255) !important;
+ background-color:rgba(102, 194, 255);
 }
 
   /*============= Footer SECTION =============*/
